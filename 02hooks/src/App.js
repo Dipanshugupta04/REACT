@@ -17,7 +17,7 @@ function App() {
   //   setCounter(counter)
   // }, 2000);
 if(counter>=20){
-  alert("you never add up to 20.");
+  alert("you never add up to"  + " "+ counter+".");
 
 }
 else{
@@ -31,7 +31,7 @@ else{
   function removevalue(){
     console.log("counter",counter);
     if(counter<=0){
-      alert("you never remove the counter under zero.");
+      alert("you never remove the counter under"+ " "+counter+".");
       
     }
     
