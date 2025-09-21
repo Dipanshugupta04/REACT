@@ -15,7 +15,7 @@ function App() {
   // setInterval(() => {
   //   counter=counter+1;
   //   setCounter(counter)
-  // }, 2000);
+  // }, 2000);f
 if(counter>=20){
   alert("you never add up to"  + " "+ counter+".");
 
@@ -23,6 +23,7 @@ if(counter>=20){
 else{
   
   counter=counter+1;
+  console.log(counter)
   setCounter(counter)
   
 }
