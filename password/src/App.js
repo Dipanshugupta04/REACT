@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <h1 className="text-4xl text-center text-white">Psssword Generator</h1>
+    <div></div>
     
     <div>
 
